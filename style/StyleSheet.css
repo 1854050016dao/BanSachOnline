@@ -1,0 +1,163 @@
+﻿html
+{
+    /*background: url(../image/anhnen.jpg) no-repeat top center;*/
+    background-attachment:fixed;
+    
+}
+a{text-decoration:none;}
+body
+{
+    width : 1020px;
+    min-height: 800px;
+    margin : 0px auto;
+    background-color:white;
+    text-align: center;
+    height: 990px;
+}
+/*------------banner------*/
+#banner
+ {
+    width: 1020px;
+    margin: 0px 0px 2px 0px;
+    background-image:#CD00CD;
+    height : 200px;
+
+}
+/*---------------menungang----------*/
+#menungang
+ {
+    width : 1020px;
+    height :39px;
+    background-color:green;
+    margin : 0px 0px 2px 0px;
+    float:left;
+}
+    #menungang .menu 
+    {
+        width: 1020px;
+        height:35px;
+        list-style-type:none;
+        margin :0px;
+        padding:0px;
+     
+
+    }
+    #menungang .menu li
+         {
+            float: left;
+            width : 200px;
+            margin: 0px;
+            padding : 0px;            
+         }
+    #menungang .menu li a
+            {
+                color: white;
+                font-weight:bold;
+                font-size : 14px;
+                display:block;
+                line-height :30px;
+                height :35px;
+                text-decoration:none;
+                border :1px solid #e9c814;
+                text-align : center;
+                
+
+            }
+    #menungang .menu li a:hover
+     {
+          color:green;
+          background-color:yellow;
+          text-decoration:overline;  
+     }
+/*-----------------leftpannel----------*/
+#leftpanel
+ {
+   /*display:table;*/
+    width : 200px;
+    height: 600px;
+    background-color:white;
+    float:left;
+    margin:0;
+    padding:0;
+
+}
+ #leftpanel .leftmenu
+    {
+        width: 1020px;
+        height:30px;
+        list-style-type:none;
+        margin :0px;
+        padding:0px;
+     
+
+    }
+    #leftpanel .leftmenu li
+         {
+          
+            width : 195px;
+            margin: 0px;
+            padding : 2px;            
+         }
+    #leftpanel .leftmenu li a
+            {
+                color: white;
+                background-color:#E066FF;
+                font-weight:bold;
+                font-size : 14px;
+                display:block;
+                line-height :30PX;
+                height :27px;
+                text-decoration:none;
+                border :1px solid #e9c814;
+                text-align : center;
+                margin: 0;
+                
+
+            }
+    #leftpanel .leftmenu li a:hover
+     {
+          color:yellow;
+          background-color:red;
+          text-decoration:none;  
+     }
+/*---------danh muc sach------------*/
+.danhmucsach
+ {
+    color:#0a17ae;
+    margin:2px;
+    padding:0px;
+    background-color:lightpink;
+    width:195px;
+    height:30px;
+    border :1px solid double;
+    text-align : center;
+    font-size : 15px;
+}
+/*-------------------noidung-------------*/
+#noidung 
+{
+    width: 611px;
+    background-color: white;
+    float: left;
+    min-height: 500px;
+
+}
+
+
+/*------------rightpanel------------*/
+#rightpanel 
+{   height:600px;
+    display:table;
+    width :150px;
+    background-color:white;
+    float:left;
+}
+/*-----------footer--------*/
+#footer
+ {
+    clear :left;
+    width : 1020px;
+    min-height :80px;
+    background-color:#008080;
+
+}

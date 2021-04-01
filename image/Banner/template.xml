@@ -1,0 +1,42 @@
+<template type="photoEditor" demoWidth="750" demoHeight="300" bgColor="16777215" img="res/18_img3.jpg" fillStyle="fill">
+	<component type="photoArea">
+		<property x="0" y="0" width="750" height="300" scaleX="1.0416666666666667" scaleY="0.5555555555555556" rotation="0" alpha="1" depth="-1"/>
+		<info url="res/template.swf"/>
+	</component>
+	<component type="textEffect">
+		<property x="176" y="196" width="524" height="55" scaleX="1" scaleY="1" rotation="0" alpha="1" depth="0"/>
+		<info url="">
+			<textData copyright="anvsoftTextEffectEditor">
+				<textInfo>
+					<text>Mỗi ngày một cuốn sách</text>
+					<format font="Arial" color="16711935" size="45" align="left" bold="true" italic="true" underline="false" embedFonts="false"/>
+					<shadow distance="7" angle="222" color="16777215" alpha="38" blur="3" strength="115"/>
+				</textInfo>
+				<effectInfo>
+					<entrance name="Typewriter" startEffectTime="1" entranceTime="2" effectTime="2"/>
+					<exit name="ToppleForward" exitTime="2"/>
+					<interaction specifiedLoopTimes="false" loopTime="2" visibleAfterLoopOver="true"/>
+				</effectInfo>
+			</textData>
+		</info>
+		<hyperlink url="" target="0"/>
+	</component>
+	<component type="textEffect">
+		<property x="41" y="41" width="451" height="55" scaleX="1" scaleY="1" rotation="0" alpha="1" depth="1"/>
+		<info url="">
+			<textData copyright="anvsoftTextEffectEditor">
+				<textInfo>
+					<text>Tri thức là sức mạnh</text>
+					<format font="Arial" color="16777215" size="45" align="left" bold="true" italic="true" underline="false" embedFonts="false"/>
+					<shadow distance="5" angle="0" color="0" alpha="50" blur="5" strength="100"/>
+				</textInfo>
+				<effectInfo>
+					<entrance name="ThrowFromStageCenter" startEffectTime="0" entranceTime="2" effectTime="2"/>
+					<exit name="ToppleForward" exitTime="2"/>
+					<interaction specifiedLoopTimes="false" loopTime="2" visibleAfterLoopOver="true"/>
+				</effectInfo>
+			</textData>
+		</info>
+		<hyperlink url="" target="0"/>
+	</component>
+</template>

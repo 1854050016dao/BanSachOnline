@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="ADM_admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Chúc ad một ngày làm việc thật tốt!</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            width: 149px;
+        }
+        .style4
+        {
+        }
+         .auto-style1 {
+             width: 149px;
+             height: 80px;
+         }
+         .auto-style2 {
+             height: 80px;
+         }
+         .auto-style4 {
+             width: 106px;
+             text-align: center;
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style9 {
+             width: 188px;
+             text-align: center;
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style11 {
+             width: 215px;
+             text-align: center;
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style13 {
+             width: 201px;
+             text-align: center;
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style14 {
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style15 {
+             color: #FFFFFF;
+             font-size: large;
+         }
+         .auto-style16 {
+             width: 183px;
+             text-align: center;
+             font-weight: bold;
+             background-color: #660066;
+         }
+         .auto-style17 {
+             color: #FFFF00;
+             font-size: xx-large;
+             text-align: center;
+             height: 63px;
+         }
+         .auto-style18 {
+             text-align: center;
+         }
+         .auto-style19 {
+             color: #FFFF00;
+             background-color: #CC0000;
+         }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <p class="auto-style17" style="background-color: #FF00FF; color: #000000;">
+        &nbsp;<strong>TRANG QUẢN TRỊ</strong></p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <table class="style1">
+                <tr>
+                    <td class="auto-style9">
+                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ADM/quanlinguoidung.aspx" CssClass="auto-style15">Quản lí người dùng</asp:HyperLink>
+                    </td>
+                    <td class="auto-style4">
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/ADM/Quanlisach.aspx" CssClass="auto-style15">Quản lí sách</asp:HyperLink>
+                    </td>
+                    <td class="auto-style13">
+                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/ADM/quanlidondathang.aspx" CssClass="auto-style15">Quản lí đơn hàng</asp:HyperLink>
+                    </td>
+                    <td class="auto-style11">
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/ADM/quanliquyen.aspx" CssClass="auto-style15">Quản lí quyền sử dụng</asp:HyperLink>
+                    </td>
+                    <td class="auto-style16">
+                        <asp:HyperLink ID="HyperLink9" runat="server" CssClass="auto-style15" NavigateUrl="~/Default.aspx">Quay Lại Trang Chủ</asp:HyperLink>
+                    </td>
+                    <td class="auto-style14" style="text-align: center">
+                        <asp:HyperLink ID="HyperLink10" runat="server" CssClass="auto-style15" NavigateUrl="~/DangNhap.aspx" style="text-align: center">Đăng Xuất</asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+    <table class="style1">
+        <tr>
+            <td colspan="3" class="auto-style18">
+                <strong><span class="auto-style19">CHÀO ADMIN ĐẾN VỚI TRANG QUẢN TRỊ</span></strong></td>
+        </tr>
+        <tr>
+            <td class="auto-style1" align="left" valign="top">
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+            <td class="auto-style2" colspan="2" align="left" valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="style2">
+                &nbsp;</td>
+            <td class="style4">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
