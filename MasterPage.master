@@ -27,18 +27,21 @@
              text-align: left;
          }
          .auto-style7 {
-             color: #FFFFFF;
+             color: black;
+             width: 5px;
+             
          }
          .auto-style9 {
-             color: #CC0000;
+             color: yellow;
          }
          .auto-style10 {
-             height: 10px;
+             height: 5px;
+
          }
          .auto-style11 {
              width: 100%;
              height: 67px;
-             background-color:greenyellow;
+             background-color:yellow;
          }
          .auto-style12 {
              width: 31px;
@@ -252,23 +255,26 @@
         </div>
        
         </form> 
-        <div id ="footer"><table class="auto-style11">
-            
+        <div id ="footer"><table style="width:100%;">
             <tr>
-                <td style="text-align: center; font-family: 'Times New Roman', Times, serif;  font-style: oblique; background-color: #CCFF99;" class="auto-style10">Nhóm Sinh viên thực hiện: <br /> 
-                Nguyễn Thị Huyên, 
-                Lê Thị Hồng Hạnh, 
-                Nguyễn Ánh Tuyết, 
-                Nguyễn Thị Thanh Thúy,  
-                Nguyễn Huỳnh Như Ý,
-                Nguyễn Thị Anh Đào</td><br class="auto-style7" />
-                <span class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mọi chi tiết xin liên hệ </span>
+                <td style="background-color: yellowgreen"></td>
+                </tr>
+
+            <tr>
+            <td style="background-color: darkblue">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style7">Bản Quyền Thuộc Nhóm sinh viên thực hiện đề tài số 19 ©2021</span><br class="auto-style7" />
+                <span class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lớp DH18IM02, Trường Đại học Mở Thành phố Hồ Chí Minh</span>
                    <br class="auto-style7" />
-                <span class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hotline: 19006688 </span><br class="auto-style7" />
+                <span class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hotline: 19001006</span><br class="auto-style7" />
                 <span class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Địa chỉ email: </span><a href="mailto:1854050034huyen@ou.edu.vn"><span class="auto-style9">huyen@gmail.com</span></a><span class="auto-style7"> - </span>  </td>
+Địa chỉ email: </span><a href="mailto:1854050034@ou.edu.vn-"><span class="auto-style9">huyen@gmail.com</span></a><span class="auto-style7"> </span>
                 
                </tr>
+            <tr>
+                <td style="background-color: yellowgreen">
+
+                </td>
+            </tr>
                          </table></div>
 </body>
 </html>

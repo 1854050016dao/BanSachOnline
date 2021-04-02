@@ -28,17 +28,13 @@
         </tr>
         <tr>
             <td style="text-align: center">Nguyễn Thị Huyên<br />
-                Lê Thị Hồng Hạnh<br />
-                Nguyễn Ánh Tuyết<br />
-                Nguyễn Thị Thanh Thúy<br />
-                Nguyễn Huỳnh Như Ý<br />
-                Nguyễn Thị Anh Đào</td>
+                </td>
         </tr>
         <tr>
             <td style="text-align: center"><b>Địa chỉ: 371-Nguyễn Kiệm-Phường 3-Gò Vấp-TP HCM</b></td>
         </tr>
         <tr>
-            <td style=" text-align: center"> SĐT:01636074246 </td>
+            <td style=" text-align: center"> SĐT:19001006</td>
         </tr>
         <tr>
             <td style="text-align: center"><b>Email: <a href="mailto:1854050034huyen@ou.edu.vn">huyen@gmail.com</a> </b></td>

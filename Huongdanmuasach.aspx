@@ -39,7 +39,7 @@
             .auto-style15 {
                 font-weight: bold;
                 color: rgb(0, 0, 0);
-                width: 422px;
+                
             }
             .auto-style16 {
                 color: rgb(0, 0, 0);
@@ -96,6 +96,12 @@
             .auto-style28 {
                 width: 584px;
             }
+            .auto-style29 {
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+                width: 636px;
+                height: 43px;
+            }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -128,11 +134,9 @@
                         <p align="justify" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(3, 38, 85); font-family: arial, tahoma; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
                             <span class="auto-style12" style="font-family: 'Times New Roman'; font-size: 19px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 28px; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">&nbsp;Ngay lập tức, giỏ hàng sẽ hiện ra với sản&nbsp;phẩm mà quý khách vừa chọn.</span>
                         </p>
-                        <p align="justify" style="margin: 0px; padding: 0px; font-family: arial, tahoma; font-size: 12px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" class="auto-style12">
+                        <p align="justify" style="margin: 0px; padding: 0px; font-family: arial, tahoma; font-size: 12px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" class="auto-style29">
                             &nbsp;
-                        </p>
-                        <p align="justify" style="margin: 0px; padding: 0px; font-family: arial, tahoma; font-size: 12px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" class="auto-style15">
-                            <span style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 14pt; line-height: 28px;"><font face="Times New Roman" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;">&nbsp;- Tại đây, Quý khách có thể:</font></span>
+                        <span style="font-size: 14pt; line-height: 28px;"><font face="Times New Roman">- Tại đây, Quý khách có thể:</font></span>
                         </p>
                         <p align="justify" style="margin: 0px; padding: 0px; font-family: arial, tahoma; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); height: 60px; width: 599px;" class="auto-style13">
                             <font face="Times New Roman" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;"><b style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; "><span style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 14pt; line-height: 28px; ">&nbsp;+ Cập nhật giỏ hàng</span></b><span style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 14pt; line-height: 28px; " class="auto-style11">: Khi quý khách mua một sản phẩm với số lượng lớn hơn 1 . Quý khách điền số lượng cần mua ở ô số lượng rồi ấn cập nhật. </span></font>
